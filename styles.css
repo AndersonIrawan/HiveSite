@@ -6,13 +6,17 @@
     max-width: 50px;
 }
 
+.bikestand {
+    max-width: 500px;
+}
+
 @font-face {	
-    src: url("webfonts/Montserrat-SemiBold.ttf");
+    src: url(webfonts/Montserrat-SemiBold.ttf);
     font-family: Montserrat;
 }
 
 montserrat {
-    font-family: Montserrat, 'Trebuchet MS', 
+    font-family: Montserrat, 'Times New Roman', 
     'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
 }
