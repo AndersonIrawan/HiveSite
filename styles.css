@@ -1,0 +1,18 @@
+.title {
+    max-width: 200px;
+}
+
+.profile-picture {
+    max-width: 50px;
+}
+
+@font-face {	
+    src: url("webfonts/Montserrat-SemiBold.ttf");
+    font-family: Montserrat;
+}
+
+montserrat {
+    font-family: Montserrat, 'Trebuchet MS', 
+    'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+}
