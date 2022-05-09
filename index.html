@@ -24,18 +24,14 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#">Settings</a>
+                <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#">Join Us</a>
               </li>
             </ul>
             <div class="text-end">
-              <img src="images/profile-picture-01.png" class="profile-picture">
-              <button class="btn btn-lg btn-dark">Sign In</button>
+              <button class="btn btn-lg btn-dark rounded-pill">Sign In</button>
             </div>
           </div>
         </div>
@@ -48,7 +44,7 @@
 
       <div class="row">
 
-        <div class="col-xs-12 col-lg-6 pt-md-5">
+        <div class="col-xs-12 col-lg-6 p-5">
               <h1 class="fs-1 fw-bolder text-left montserrat text-warning text-xs-center text-lg-end"> Hives all over town!</h1>
               <p class="fs-2 text-right montserrat text-xs-center text-lg-end">We have opened up many Hives all over Bristol. Remember: if you're in a rush, take the buzz!</p>
         </div>
@@ -83,17 +79,18 @@
 
       <div class="row py-4">
 
-        <div class="col-xs-12 col-sm-4 px-sm-2 px-md-5">
+        <div class="col-xs-12 col-md-4 px-sm-5">
               <h4 class="text-center">Affordable Prices</h4>
+              <i class="bi bi-currency-pound"></i>
               <p>Our services range from £3 per ride to £5 per lap. Join as a member to receive exclusive offers.</p>
         </div>
 
-        <div class="col-xs-12 col-sm-4 px-sm-2 px-md-5">
+        <div class="col-xs-12 col-md-4 px-sm-5">
               <h4 class="text-center">Anywhere, Everywhere</h4>
               <p>Find us anywhere around the city. Use our Hive finder to get a buzz on around the city.</p>
         </div>
 
-        <div class="col-xs-12 col-sm-4 px-sm-2 px-md-5">
+        <div class="col-xs-12 col-md-4 px-sm-5">
              <h4 class="text-center">Eco-Friendly</h4>
              <p>We believe with the use of bikes instead of motoric vehicles, we can help reduce harmful emissions.</p>
       </div>
@@ -115,29 +112,125 @@
 
       <div class="row">
 
-        <div class="col-6  text-center">
-              <button class="btn btn-lg btn-dark text-warning">Find Nearest</button>
+        <div class="col-xs-12 col-sm-6 text-center">
+          <img src="images/cycle-group.png" class="img-fluid mb-3 rounded-circle border-warning border-5" width="200"><br>
+          <button class="btn btn-lg btn-dark text-warning mb-3 rounded-pill">Find Nearest</button>
         </div>
 
-        <div class="col-6  text-center">
-          <button class="btn btn-lg btn-dark text-warning">Locate a Hive</button>
+        <div class="col-xs-12 col-sm-6 text-center">
+          <img src="images/yellow-city.png" class="img-fluid mb-3 rounded-circle border-warning border-5" width="200"><br>
+          <button class="btn btn-lg btn-dark text-warning mb-3 rounded-pill">Locate a Hive</button>
         </div>
 
       </div>
 
     </div>
 
-    <!-- Footer -->
-    <div class="container-fluid bg-dark text-light py-4">
+    <!-- Container 4 -->
+    <div class="container py-4">
 
       <div class="row">
 
         <div class="col-12 text-center">
-              <p class="fs-5">This is a footer.</p>
+              <h1 class="text-warning fw-bolder">Become a member!</h1>
         </div>
 
       </div>
 
+    </div>
+
+    <!-- Container 5 -->
+    <div class="container-fluid bg-warning p-4 px-xs-2 px-sm-5">
+
+      <form>
+
+        <div class="row">
+        
+          <div class="form-floating col-xs-12 col-sm-6">
+            <div class="form-floating mb-3">
+              <input type="name" class="form-control" id="floatingInput" placeholder="first name">
+              <label for="floatingInput" class="text-dark">First Name</label>
+            </div>
+          </div>
+  
+          <div class="form-floating col-xs-12 col-sm-6">
+            <div class="form-floating mb-3">
+              <input type="name" class="form-control" id="floatingInput" placeholder="surname">
+              <label for="floatingInput" class="text-dark">Surname</label>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="row">
+  
+          <div class="col-12">
+            
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput" class="text-dark">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword" class="text-dark">Password</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword" class="text-dark">Confirm password</label>
+            </div>
+            
+            
+          </div>
+        
+        </div>
+
+        <div class="row">
+        
+          <div class="col-6">
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Sign up for newsletter</label>
+            </div>
+          </div>
+  
+          <div class="col-6">
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Agree to <u>terms and conditions</u></label>
+            </div>
+          </div>
+  
+        </div>
+
+        <div class="row">
+
+          <div class="col-12">
+            <button type="submit" class="btn btn-dark text-warning rounded-pill">Submit</button>
+          </div>
+
+        </div>
+  
+      </form>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container-fluid bg-dark text-light p-4">
+    
+      <div class="row">
+
+        <div class="col-12 text-center">
+          <p>This is a footer for this page.</p>
+        </div>
+      
+      </div>
+      <div class="row">
+
+        <div class="col-12 text-center">
+          <p>Facebook | Instagram | Twitter</p>
+        </div>
+      
+      </div>
 
     </div>
 

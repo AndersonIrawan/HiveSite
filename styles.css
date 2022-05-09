@@ -20,3 +20,7 @@ montserrat {
     'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
 }
+
+.form-text {
+    color: grey;
+}
