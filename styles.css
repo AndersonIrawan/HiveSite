@@ -24,3 +24,8 @@ montserrat {
 .form-text {
     color: grey;
 }
+
+.min-max-img {
+    min-width: 100px;
+    max-width: 400px;
+}
