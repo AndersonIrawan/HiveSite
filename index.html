@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
 
     <title>Hello, world!</title>
@@ -24,10 +25,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#">About</a>
+                <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#">Join Us</a>
+                <a class="nav-link active text-warning fs-4 montserrat" aria-current="page" href="#join">Join Us</a>
               </li>
             </ul>
             <div class="text-end">
@@ -42,11 +43,13 @@
     <!-- Container 1 -->
     <div class="container py-4">
 
-      <div class="row">
+      <div class="row mb-3">
 
         <div class="col-xs-12 col-lg-6 p-5">
               <h1 class="fs-1 fw-bolder text-left montserrat text-warning text-xs-center text-lg-end"> Hives all over town!</h1>
               <p class="fs-2 text-right montserrat text-xs-center text-lg-end">We have opened up many Hives all over Bristol. Remember: if you're in a rush, take the buzz!</p>
+              <br><br>
+              <p class="fs-2 text-right montserrat text-xs-center text-lg-end">Find a bicycle for you to right now!</p>
         </div>
 
         <div class="col-xs-12 col-lg-6 text-center">
@@ -59,7 +62,7 @@
 
         <div class="col-12  text-center d-grid">
               <br>
-              <button class="btn"><img src="images/arrow.png" height="30"></button>
+              <a href="#find" class="btn"><img src="images/arrow.png" height="30"></a>
         </div>
 
       </div>
@@ -74,7 +77,13 @@
       <div class="row">
 
         <div class="col-12">
+
+          <section id="about">
+
               <h1 class="text-center">What we offer</h1>
+
+          </section>
+
         </div>
 
       </div>
@@ -84,7 +93,7 @@
         <div class="col-xs-12 col-md-4 px-sm-5 text-center">
               <h4 class="text-center">Affordable Prices</h4>
               <img src="images/price-01.png" class="img-fluid">
-              <p class="fs-5">Our services range from £3 per ride to £5 per lap. Join as a member to receive exclusive offers.</p>
+              <p class="fs-5">Our services range from single use tickets to month long passes. Join as a member to receive exclusive offers.</p>
         </div>
 
         <div class="col-xs-12 col-md-4 px-sm-5 text-center">
@@ -109,14 +118,152 @@
     <div class="container py-4">
 
       <div class="row">
+        <section id="find">
+        <div class="col-12">
+          <h1>1. Check for nearby Hives</h1>
+          <p class="mb-5">*More locations to come next year</p>
+        </div>
+        </section>
 
-        <div class="col-12 text-center">
-              <h1>Find a Bike</h1>
+      </div>
+
+      <div class="row text-center mb-4">
+
+        <div class="col-2"></div>
+
+        <div class="col-8"><img src="images/dummy-map.png" class="img-fluid text-center"></div>
+
+        <div class="col-2"></div>
+
+      </div>
+
+      
+
+      <div class="row">
+          <div class="col-8">
+          <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>--Choose Hive--</option>
+            <option value="1">Cotham School</option>
+            <option value="2">College Green</option>
+            <option value="3">Castle Park</option>
+            <option value="4">Cabot Circus</option>
+            <option value="5">Easton</option>
+            <option value="6">Oxford</option>
+          </select>
+          </div>
+          <div class="col-4 text-center d-grid"><a class="btn text-dark btn-warning rounded-pill mb-3" href="#ticket">Next</a></div>
+      </div>
+
+<!-- Step Two -->
+
+    <div class="container py-4">
+
+      <section id="ticket">
+          <h1>2. Purchase tickets</h1>
+          <p>*Bikes are unusable from 00.00 to 05.00 everyday. (Times may vary during certain days)</p>
+      </section>
+
+      </div>
+
+      <div class="row text-center mb-xs-0 mb-sm-3">
+
+        <div class="col-xs-12 col-sm-4">
+          <h1 class="text-warning">Single - £1.5</h1>
+          <p>Grants access to a bike for one trip.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <h1 class="text-warning">Double - £2.6</h1>
+          <p>Grants access to a bike for two trips (includes back and forth).</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <h1 class="text-warning">1 Day - £4.5</h1>
+          <p>Grants access to a bike for 24 hours.</p>
+        </div>
+
+      </div>
+
+      <div class="row text-center mb-5">
+
+        <div class="col-xs-12 col-sm-4">
+          <h1 class="text-warning">3 Day - £7</h1>
+          <p>Grants access to a bike from Friday to Sunday.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <h1 class="text-warning">Week - £22</h1>
+          <p>Grants access to a bike for 7 days.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-4">
+          <h1 class="text-warning">Month - £75</h1>
+          <p>Grants access to a bike for 30 days.</p>
         </div>
 
       </div>
 
       <div class="row">
+        <div class="col-8">
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+          <option selected>--Choose ticket--</option>
+          <option value="1">Single - £1.5</option>
+          <option value="2">Double - £2.6</option>
+          <option value="3">1 Day - £4.5</option>
+          <option value="4">3 Day - £7</option>
+          <option value="5">Week - £22</option>
+          <option value="6">Month - £75</option>
+        </select>
+        </div>
+
+        <div class="col-4 text-center d-grid"><a class="btn text-dark btn-warning rounded-pill mb-3" href="#scan">Next</a></div>
+
+      </div>
+
+    </div>
+
+<!-- Step Three -->
+
+    <div class="container py-4">
+
+      <div class="row mb-5">
+
+        <div class="col-12">
+          <section id="scan">
+          <h1>3. Tap On Bike and Ride</h1>
+          <p>Scan the QR code on the bike OR present it to an assistant to access a bike</p>
+          </section>
+        </div>
+
+      <div class="row mb-3">
+
+          <div class="col-3"></div>
+
+          <div class="col-6">
+            <img src="images/bicycle.png" class="img-fluid">
+          </div>
+
+          <div class="col-3"></div>
+
+      </div>
+
+        <div class="row">
+
+          <div class="col-3"></div>
+
+          <div class="col-6 d-grid">
+            <button type="submit" class="btn text-dark btn-warning rounded-pill mb-3l">Check Out</button>
+          </div>
+
+          <div class="col-3"></div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+      <!--  <div class="row">
 
         <div class="col-xs-12 col-sm-6 text-center">
           <img src="images/cycle-group.png" class="img-fluid mb-3 rounded-circle border-warning border-5" width="200"><br>
@@ -128,19 +275,43 @@
           <button class="btn btn-lg btn-dark text-warning mb-3 rounded-pill">Locate a Hive</button>
         </div>
 
-      </div>
+      </div>   -->  
 
     </div>
 
+ 
     <img src="images/extend-top-1.png" class="img-fluid">
 
-    <!-- Container 5 -->
+    <!-- Container 4 -->
     <div class="container-fluid bg-warning p-4 px-xs-2 px-sm-5">
 
       <div class="row">
+
+        <section id="join">
+
         <div class="col-12 text-center">
+
           <h1 class="fw-bolder mb-3">Become a member!</h1>
+          <p>By becoming a member, you gain honey points each purchase which you can use to exchange for tickets.</p>
+
         </div>
+
+        </section>
+
+      </div>
+
+      <div class="row mb-5">
+
+        <div class="col-4"></div>
+
+        <div class="col-4 text-center">
+
+          <img src="images/honey-points.png" class="img-fluid">
+
+        </div>
+
+        <div class="col-4"></div>
+
       </div>
 
       <form>
@@ -197,7 +368,7 @@
           <div class="col-xs-6 col-sm-4">
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Agree to <u>terms and conditions</u></label>
+              <label class="form-check-label" for="exampleCheck1">Agree to <a><u>terms and conditions</u></a></label>
             </div>
           </div>
   
@@ -221,14 +392,33 @@
       <div class="row">
 
         <div class="col-12 text-center">
-          <p>This is a footer for this page.</p>
+          <p>Find us on</p>
         </div>
       
       </div>
+
       <div class="row">
 
         <div class="col-12 text-center">
-          <p>Facebook | Instagram | Twitter</p>
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+          <a href="https://twitter.com/home" class="fa fa-twitter"></a></p>
+        </div>
+      
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 text-center">
+          <p>Contact us: +44 7760 XXX XXX | bhivecycles@gmail.com</p>
+        </div>
+      
+      </div>
+
+      <div class="row">
+
+        <div class="col-12 text-center">
+          <p>A website by Anderson Putra Irawan. All rights reserved.</p>
         </div>
       
       </div>

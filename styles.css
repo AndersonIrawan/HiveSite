@@ -25,7 +25,25 @@ montserrat {
     color: grey;
 }
 
-.min-max-img {
-    min-width: 100px;
-    max-width: 400px;
+.center-map {
+    text-align: center;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .orange {
+      background-color: #ff9100;
+  }
